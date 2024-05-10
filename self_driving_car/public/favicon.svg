@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2400" viewBox="0 0 256 256" aria-hidden="true"
-    stroke="var(--accent-regular)" fill="var(--accent-regular)" style="--size:1.6em" class="astro-tt5qvl6n">
-    <g stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke-width="16" d="m80 96 40 32-40 32m56 0h40" />
-        <rect width="192" height="160" x="32" y="48" stroke-width="16.97" rx="8.5" />
-    </g>
-</svg>
