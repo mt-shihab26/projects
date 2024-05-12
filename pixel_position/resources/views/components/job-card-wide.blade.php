@@ -9,7 +9,17 @@
         <a href="#"
             class="self-start text-sm text-gray-400 transition-colors duration-300">{{ $jobListing->employer->name }}</a>
 
-        <h3 class="mt-3 text-xl font-bold group-hover:text-blue-800">{{ $jobListing->title }}</h3>
+        <h3 class="mt-3 text-xl font-bold group-hover:text-blue-800">
+            @if ($jobListing->url)
+                <a href="{{ $jobListing->url }}" target="_blank">
+                    {{ $jobListing->title }}
+
+                </a>
+            @else
+                {{ $jobListing->title }}
+            @endif
+
+        </h3>
 
         <p class="mt-auto text-sm text-gray-400">{{ $jobListing->employment_type }} - From
             {{ $jobListing->salary }}</p>
