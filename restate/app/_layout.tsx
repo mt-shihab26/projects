@@ -25,7 +25,7 @@ const RootLayout = () => {
         return null;
     }
 
-    return <Stack />;
+    return <Stack screenOptions={{ headerShown: false }} />;
 };
 
 export default RootLayout;
